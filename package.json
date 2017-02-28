@@ -1,0 +1,46 @@
+{
+  "name": "electron-frameless",
+  "productName": "Electron Frameless",
+  "version": "0.0.0",
+  "description": "A seed for cross-platform, frameless-windowed applications",
+  "license": "MIT",
+  "repository": "https://github.com/shanewignall/electron-frameless",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": "twitter.com/deadsl0th"
+  },
+  "scripts": {
+    "test": "xo",
+    "start": "electron .",
+    "build": "electron-packager . --out=dist --asar --overwrite --all"
+  },
+  "files": [
+    "index.js",
+    "index.html",
+    "index.css"
+  ],
+  "keywords": [
+    "desktop-app",
+    "electron",
+    "frameless",
+    "cross-platform"
+  ],
+  "dependencies": {
+    "electron-debug": "^1.0.0",
+    "electron-titlebar": "0.0.3"
+  },
+  "devDependencies": {
+    "devtron": "^1.1.0",
+    "electron-packager": "^8.0.0",
+    "electron": "^1.3.3",
+    "xo": "^0.16.0"
+  },
+  "xo": {
+    "esnext": true,
+    "envs": [
+      "node",
+      "browser"
+    ]
+  }
+}
