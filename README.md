@@ -1,4 +1,4 @@
-# desktop
+# Electron Frameless
 
 > A seed for cross-platform, frameless-windowed applications
 
