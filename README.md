@@ -23,6 +23,8 @@ $ npm run build
 
 Builds the app for macOS, Linux, and Windows, using [electron-packager](https://github.com/electron-userland/electron-packager).
 
+## Screenshots
+![Windows](http://i.imgur.com/WyjTRc3.png)
 
 ## License
 
