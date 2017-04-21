@@ -12,9 +12,12 @@ function onClosed() {
 }
 
 function createMainWindow() {
+	var frame = ((process.platform !== 'darwin') ? false : true);
+	
 	const win = new electron.BrowserWindow({
 		width: 600,
 		height: 400,
+		frame: frame,
 		titleBarStyle: 'hidden-inset'
 	});
 
